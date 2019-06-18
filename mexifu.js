@@ -497,8 +497,8 @@ var MX_AJAX = function(person) {
 
         payload['formRegistroCitaExtranjero:noPasapAnt'] = person.passport;
         payload['formRegistroCitaExtranjero:selectTramite_input'] = "12";
-        payload['formRegistroCitaExtranjero:schedule_start'] = new Date(2018, 7, 20, 0, 0, 0, 0).getTime().toString();
-        payload['formRegistroCitaExtranjero:schedule_end'] = new Date(2018, 7, 31, 0, 0, 0, 0).getTime().toString();
+        payload['formRegistroCitaExtranjero:schedule_start'] = new Date(2019, 7, 15, 0, 0, 0, 0).getTime().toString();
+        payload['formRegistroCitaExtranjero:schedule_end'] = new Date(2019, 7, 31, 0, 0, 0, 0).getTime().toString();
         payload = Object.assign(payload, payloads.agendaWeekSinPermiso);
         payload['formRegistroCitaExtranjero:selectTipoTramite_input'] = "63";
 
