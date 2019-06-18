@@ -50,8 +50,8 @@ function handleClientLoad() {
 
 function initClient() {
 	gapi.client.init({
-		apiKey: 'AIzaSyD6qhxXVsysg6nyhDt5DRUafmNYcLHInRI',
-		clientId: '963048267522-sb3a16350r0u747hkrsvrlqvjq1vdqt7.apps.googleusercontent.com',
+		apiKey: 'AIzaSyDx22yc-BVyh1YVaubmL0FoFFheiKUreaU',
+		clientId: '237972409802-lf7j49km8gi5gn6i6n63k0g61okom5mv.apps.googleusercontent.com',
 		discoveryDocs: ["https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest"],
 		scope: 'https://mail.google.com/'
 	}).then(function () {
