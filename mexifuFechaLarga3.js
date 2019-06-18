@@ -50,8 +50,8 @@ function handleClientLoad() {
 
 function initClient() {
 	gapi.client.init({
-		apiKey: 'AIzaSyD6qhxXVsysg6nyhDt5DRUafmNYcLHInRI',
-		clientId: '963048267522-sb3a16350r0u747hkrsvrlqvjq1vdqt7.apps.googleusercontent.com',
+		apiKey: 'AIzaSyDx22yc-BVyh1YVaubmL0FoFFheiKUreaU',
+		clientId: '237972409802-lf7j49km8gi5gn6i6n63k0g61okom5mv.apps.googleusercontent.com',
 		discoveryDocs: ["https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest"],
 		scope: 'https://mail.google.com/'
 	}).then(function () {
@@ -497,8 +497,8 @@ var MX_AJAX = function(person) {
 
         payload['formRegistroCitaExtranjero:noPasapAnt'] = person.passport;
         payload['formRegistroCitaExtranjero:selectTramite_input'] = "12";
-        payload['formRegistroCitaExtranjero:schedule_start'] = new Date(2018, 7, 20, 0, 0, 0, 0).getTime().toString();
-        payload['formRegistroCitaExtranjero:schedule_end'] = new Date(2019, 2, 15, 0, 0, 0, 0).getTime().toString();
+        payload['formRegistroCitaExtranjero:schedule_start'] = new Date(2019, 7, 15, 0, 0, 0, 0).getTime().toString();
+        payload['formRegistroCitaExtranjero:schedule_end'] = new Date(2019, 7, 31, 0, 0, 0, 0).getTime().toString();
         payload = Object.assign(payload, payloads.agendaWeekSinPermiso);
         payload['formRegistroCitaExtranjero:selectTipoTramite_input'] = "63";
 
